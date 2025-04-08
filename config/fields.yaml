@@ -1,1 +1,28 @@
+core_properties:
+  - property_id
+  - address.line
+  - address.city
+  - address.state
+  - address.zip
+  - building_area
+  - year_built
+  - property_type
+  # add more based on Data Dictionary
+
+sales:
+  - sale_id
+  - sale_price
+  - sale_date
+  - deed_type
+
+mortgages:
+  - loan_id
+  - lender_name
+  - loan_amount
+  - origination_date
+
+ownership:
+  - owner_id
+  - entity_name
+  - owner_type
 
